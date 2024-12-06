@@ -1,0 +1,26 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  
+    "compilerOptions": {
+      "allowJs": true,
+      "jsx": "preserve",   // If you're using JSX
+      "strict": true,
+      "moduleResolution": "node"
+    },
+    "include": [
+      "src/**/*"
+    ]
+
+  
+}
